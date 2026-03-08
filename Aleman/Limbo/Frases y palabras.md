@@ -1,0 +1,111 @@
+## Frases
+
+- =={green}das== geht nicht = No puede ser...
+- =={green}das== weiß ich leider nicht = Lamentablemente, no lo sé
+- Tut mir leid = Lo siento
+- Am morgen = Por la mañana
+- Welcher Tag ist heute? = ¿Qué día es hoy?
+- Das geht nicht = No funciona (para rechazar una invitación)
+- =={red}keine== Lust = No quiero / no deseo
+- Bitte schön = Por favor
+- Danke schön = gracias
+## Palabras nuevas
+- =={blue}der== Termin / =={red}die== Termine = Cita
+- =={blue}der== Kurs = El curso
+- =={blue}der== Schule(n) = El colegio
+- =={red}die== Wörter = palabras
+- =={red}die== Mittagspause(n) = hora de almuerzo 
+- =={blue}der== Sprachschule = curso de idiomas
+- bestellen = pedir
+- =={blue}der== Arzt, =={red}die== Ärzte = médico
+- =={red}die== Ärztin, =={red}die== Ärztinnen = médica
+- =={blue}der== Babysitter, =={red}die== Babysitter = niñero
+- =={red}die== Babysitterin, =={red}die== Babysitterinnen = niñera
+- beginnen = empezar
+- =={red}die== Lösung(en) = La solución
+- =={blue}der== Tag(e) = El día
+- =={red}die== Uni(s) = La uni
+- normalerweise = normalmente / habitualmente
+- =={green}das== Müsli(s)= cereal
+- manchmal = a veces
+- oft = a menudo
+- üben = practicar
+- =={red}die== Flöte(n) = flauta(s)
+- wieder = de nuevo
+- =={green}das== Frühstück = desayuno
+- Tageszeiten = listado del día
+- meistens = la mayoría de las veces
+- selten = raramente
+- nie = nunca
+- fast immer = casi siempre
+- putzen = limpieza
+- =={blue}der== Abend(e) = noche
+- =={green}das== Abendessen = cena
+- =={blue}der== Apfel, =={red}die== Äpfel = manzana(s)
+- =={blue}der== Mittag, =={red}die== Mittage = mediodía(s)
+- =={red}die== Nacht, =={red}die== Nächte = noche(s)
+- Bring = trae
+- =={blue}der== Satz, =={red}die==Sätze = frase, oración
+- =={red}die== Reihenfolge(n) = orden, secuencia
+- spät = tarde, tardío
+- zum = al, para el
+- draußen = afuera, al aire libre
+- drinnen = dentro
+- aus|wählen = elegir, seleccionar, escoger
+- war = fue
+- aussage = afirmación, declaración
+- vor|bereiten = preparar
+- unterrichten = dar lecciones, dar clases
+- passenden = adecuado
+- =={red}die== Lücke(n) = vacío, espacio
+- auf|hören = terminar
+- mit|schreiben = tomar apuntes
+- an|fangen = comenzar
+- vor / nach = antes / después
+- =={blue}der== Fußball = fútbol
+- glauben = querer
+- etwas korrigieren = corregir
+- lange = mucho tiempo
+- mit|schreiben = anotar
+- =={red}die== Übung(en) = ejercicio
+- jemanden etwas vor|lesen = leer algo a alguien
+- auf|wachen = despertarse
+- =={red}die== Lust = deseo
+- =={red}die== Ferien = feriado
+- zuerst = primero
+- dann / danach = luego
+- fehlenden = ausentes / faltantes
+- =={red}die== Schokoladencreme
+- =={blue}der== Nutzer = el usuario
+- passen = encajar
+- =={green}das== Bild = foto
+- besuchen = visitar
+- raus|gehen = salir
+- duschen = duchar
+- frühstücken = desayunar
+- =={green}das== Theater = Teatro
+- =={green}das== Museum = Museo
+- =={red}die== Gitarre = Guitarra
+- =={green}das== Tennis = Tenis
+- =={blue}der== Volleyball = volleyball
+- vervollständigen = completar
+- Präsens = presente
+- denken = pensar, reflexionar
+- =={green}das== Eis = helado
+- =={blue}der== Film(e) = película
+- früh = temprano
+- =={red}die== Öffnungszeit(n) = horario de apertura
+- geöffnet haben = estar abierto (-a)
+- leider = lamentablemente
+- geschlossen haben = cerrado
+- nehmen = tomar
+- =={red}die== Suppe(n) = la sopa
+- =={blue}der== Fisch(e) = pescado
+- Sicher = Seguro
+- Äußerungen = declaración
+- kurz = corto, breve
+- ab = a partir de 
+- allein = solo (-a)
+## Conceptos que debo profundizar
+- bei / in der: Expresar estar en un lugar o con cierta persona / servicio 
+- Wie viel Uhr ist es jetzt? vs Wissen Sie, wie spät es ist? // Oración principal vs subordinada // ist cambia de posición°
