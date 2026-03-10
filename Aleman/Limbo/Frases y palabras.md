@@ -9,6 +9,12 @@
 - =={red}keine== Lust = No quiero / no deseo
 - Bitte schön = Por favor
 - Danke schön = gracias
+- Ja, das geht = Sí, me parece bien
+- Ja, das passt gut = Sí, vale
+- Viele Grüße = (para despedirse) muchos saludos!
+- =={green}das== macht nichts = no importa...
+- ist schon gut = esta bien...
+- schon wieder? = ¿Otra vez?
 ## Palabras nuevas
 - =={blue}der== Termin / =={red}die== Termine = Cita
 - =={blue}der== Kurs = El curso
@@ -63,7 +69,7 @@
 - an|fangen = comenzar
 - vor / nach = antes / después
 - =={blue}der== Fußball = fútbol
-- glauben = querer
+- glauben = querer, creer
 - etwas korrigieren = corregir
 - lange = mucho tiempo
 - mit|schreiben = anotar
@@ -106,6 +112,42 @@
 - kurz = corto, breve
 - ab = a partir de 
 - allein = solo (-a)
+- Übermorgen = pasado mañana
+- Also = Entonces
+- witzig = divertido
+- Nur = solo
+- dar = en eso
+- dran (contracción de dar an) = en eso
+- =={blue}der== Frühdienst(e) = turno de mañana
+- =={blue}der== Kalender = calendario
+- unregelmäßig = irregulares
+- genau = exactamente
+- =={green}das== Fenster = ventana
+- =={red}die== Reservierung(en) = reserva
+- =={red}die== Sprechstundenhilfe(n) = recepcionista
+- vereinbaren = concertar, pactar, poner de acuerdo
+- vormittags = por la mañana
+- nachmittags = por la tarde
+- abends = por la noche
+- =={green}das== Datum, =={red}die== Daten = fecha
+- =={blue}der== Kalender = calendario
+- ganzen = todo, entero
+- dieser, diese, dieses = este (-a)
+- =={red}die== Panne = Descomponer, avería, pinchazo
+- =={red}die== Verspätung(en) = retraso
+- etwas ab|sagen = cancelar algo
+- =={green}das== treffen = encuentro, cita
+- vergessen = olvidar
+- spaß haben = divertirse
+- toll = excelente
+- =={blue}der== Zug = tren
+- =={red}die== Langeweile = aburrimiento
+- voll = lleno (-a)
+- =={red}die== Straße(n) = calle
+- genauso ... oder ... = igualmente ... o ...
+- =={blue}der== Platz = lugar
+- =={blue}der== Stau(s) = embotellamiento
+- unpünktlich = impuntual
 ## Conceptos que debo profundizar
 - bei / in der: Expresar estar en un lugar o con cierta persona / servicio 
 - Wie viel Uhr ist es jetzt? vs Wissen Sie, wie spät es ist? // Oración principal vs subordinada // ist cambia de posición°

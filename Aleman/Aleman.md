@@ -4,8 +4,11 @@
 
 ### - [[Häufigkeitsadverbien - adverbios de frecuencia]]
 
+### - [[Ordnungzahlen - Números ordinales]]
 
-# Cosas de alemania
+### - [[Monates des Jahres]]
+
+# Cosas de Alemania
 - ¿Lo sabías? ICE, IC, EC, RE y RB son abreviaturas de los diferentes tipos de trenes alemanes. El ICE es el tren más rápido, el RB es el más lento. 
 
 - La mayoría de los supermercados y tiendas cierra por la noche y los domingos durante todo el día. En las ciudades más pequeñas suelen cerrar a las 18 o 19. A menudo, sin embargo, en las estaciones de tren hay tiendas que tienen horarios más prolongados. En las grandes ciudades, muchos supermercados están abiertos hasta las 22.
