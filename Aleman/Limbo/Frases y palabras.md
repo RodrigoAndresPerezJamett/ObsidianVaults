@@ -148,6 +148,74 @@
 - =={blue}der== Platz = lugar
 - =={blue}der== Stau(s) = embotellamiento
 - unpünktlich = impuntual
+- =={green}das== bewerbungsgespräch = entrevista de trabajo
+- eigentlich = de hecho
+- =={blue}der== Bankkaufmann, =={red}die== Bankkaufmänner = empleado de finanzas
+- =={blue}der== Elektriker = electricista
+- feste Arbeit = trabajo permanente
+- =={red}die== Seite = página
+- =={red}die== Übung = tarea
+- =={blue}der== Computer = computador
+- =={blue}der== Schreibtisch = Escritorio
+- etwas leiten = dirigir
+- kunden beraten = asesorar clientes
+- organisieren = organizar
+- finanzenüberprufen = revisar finanzas
+- =={red}die== büroarbeit = trabajo de oficina
+- verträge unterschreiben = firmar documentos
+- =={red}die== tätigkeit = trabajo
+- =={red}die== sekretärin = secretaria
+- etwas planen = planear algo
+- termine vereinbaren = reservar citas
+- =={blue}der== mitarbeiter = empleado
+- buchen = reservar
+- =={blue}die== Erzieher(in) = educador
+- =={blue}der== Traumberuf(e) = trabajo(s) ideal(es)
+- =={blue}der== Kindergarten = Guardería
+- Leide verdiene = Lamentablemente no
+- passen = adecuado / encajar
+- =={green}das== gerät(e) = aparato(s)
+- treffen = encontrarse
+- beraten = asesorar
+- =={red}die== Vokabel = vocabulario
+- =={green}das== Meetings = reunión
+- beruflich = profesionalmente / para el trabajo
+- =={green}das== Fitnessstudio(s) = gimnasio(s)
+- =={green}das== Fitnessgerät(e) = aparato(s) fitness
+- kontrollieren = controlar
+- =={red}die== beiden = los dos
+- =={red}die== reise(n) = viaje
+- wöllen = querer
+- studieren = estudiar
+- etwas hassen = odiar algo
+- deshalb = por eso
+- weg = camino / lejos / alejarme
+- muss = debe
+- =={blue}der== designer(in) = diseñador(a)
+- =={blue}der== Fotograf = fotógrafo
+- babysitten = cuidar bebes / ser niñero
+- still = callado
+- zu Hause = en casa
+- =={blue}der== Traumberuf(e) = trabajo(s) soñado(s)
+- =={green}das== Gebäude = Edificio
+- =={blue}der== Besprechungsraum = Sala de reuniones
+	- =={red}die== Besprechungsräume = Salas de reuniones
+- =={red}die== Etage(n) = Planta
+- =={green}das== Bewerbungsgespräch = Entrevista de trabajo
+	- =={red}die== Bewerbungsgespräche = Entrevistas de trabajos
+- =={red}die== Kantine(n) = Cantina
+- =={blue}der== Aufzug = Ascensor
+- nehmen = necesitar, tomar algo
+- =={blue}der== Ausgang = salida
+- =={green}das== Sekretariat(e) = Secretaría(s)
+- =={blue}der== Empfang = recepción
+- =={blue}der== Lesesaal = Sala de lectura
+	- =={red}die== Lessesäle = Salas de lecturas
+- =={red}die== Garderobe(n) = GUardaropa
+- =={blue}der== Büroraum = Oficina
+	- =={red}die== Büroräume = Oficinas
+- =={blue}der== Notausgang = Salida de emergencia
+- =={green}das== Erdgeschoss(e) = Planta baja
 ## Conceptos que debo profundizar
 - bei / in der: Expresar estar en un lugar o con cierta persona / servicio 
 - Wie viel Uhr ist es jetzt? vs Wissen Sie, wie spät es ist? // Oración principal vs subordinada // ist cambia de posición°

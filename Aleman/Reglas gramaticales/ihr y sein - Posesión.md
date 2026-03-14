@@ -2,9 +2,9 @@
 -----------------------------------
 Se utiliza para indicar que algo es suyo, de él o de ella
 
-- Se ocupa **==ihr==** cuando algo pertenece a alguien **=={blue}MASCULINO==** o **=={green}NEUTRO==**
+- Se ocupa **==sein==** cuando algo pertenece a alguien **=={blue}MASCULINO==** o **=={green}NEUTRO==**
 	- Agregar **==e==** cuando el **objeto es =={red}femenino==**
-- Se ocupa **==sein==** cuando algo pertenece a alguien **=={red}FEMENINO==** 
+- Se ocupa **==ihr==** cuando algo pertenece a alguien **=={red}FEMENINO==** 
 	- Se agrega **==e==** cuando el **objeto es femenino**
 
 ### Ejemplos

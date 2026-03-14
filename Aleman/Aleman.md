@@ -8,6 +8,9 @@
 
 ### - [[Monates des Jahres]]
 
+### - [[Arbeit, beruf - trabajo, profesión]]
+
+
 # Cosas de Alemania
 - ¿Lo sabías? ICE, IC, EC, RE y RB son abreviaturas de los diferentes tipos de trenes alemanes. El ICE es el tren más rápido, el RB es el más lento. 
 
