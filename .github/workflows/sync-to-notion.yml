@@ -1,5 +1,4 @@
-name: Sync Obsidian to Notion
-
+name: Sync to Notion
 on:
   push:
     branches: [ main ]
@@ -9,20 +8,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: franchecol/obsidian-to-notion-action@v1
         with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          pip install notion-client markdown
-
-      - name: Run sync script
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_PAGE_ID: "321daeb71f528031b649d4424ebd279b"
-        run: python sync_to_notion.py
+          notion-token: ${{ secrets.NOTION_TOKEN }}
+          notion-page-id: "321daeb71f528031b649d4424ebd279b"
+          source-dir: "."
