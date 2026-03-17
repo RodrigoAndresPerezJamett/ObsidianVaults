@@ -25,37 +25,4 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_PAGE_ID: "321daeb71f528031b649d4424ebd279b"
-        run: |
-          python -c "
-import os
-import glob
-from notion_client import Client
-
-notion = Client(auth=os.environ['NOTION_TOKEN'])
-page_id = os.environ['NOTION_PAGE_ID']
-
-# Leer todos los archivos .md
-for filepath in glob.glob('**/*.md', recursive=True):
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    filename = os.path.basename(filepath)
-    
-    # Crear subpágina en Notion
-    notion.pages.create(
-        parent={'page_id': page_id},
-        properties={
-            'title': {'title': [{'text': {'content': filename}}]}
-        },
-        children=[
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': content[:2000]}}]
-                }
-            }
-        ]
-    )
-    print(f'Subido: {filename} :D')
-"
+        run: python sync_to_notion.py
