@@ -19,10 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install notion-client markdown
+          pip install --upgrade notion-client markdown
 
       - name: Run sync script
         env:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
-          NOTION_PAGE_ID: "321daeb71f528031b649d4424ebd279b"
+          NOTION_PAGE_ID: "326daeb71f52803e96c4ee504a31d046"
         run: python sync_to_notion.py

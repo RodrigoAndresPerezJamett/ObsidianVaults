@@ -2,31 +2,34 @@ import os
 import glob
 from notion_client import Client
 
-# Obtener variables de entorno (ahora usa NOTION_SECRET)
 NOTION_SECRET = os.environ.get('NOTION_SECRET')
-PAGE_ID = os.environ.get('NOTION_PAGE_ID')
+DATABASE_ID = os.environ.get('NOTION_DATABASE_ID')  # Cambiamos a DATABASE_ID
 
-if not NOTION_SECRET:
-    print("❌ Error: La variable NOTION_SECRET no está definida")
+if not NOTION_SECRET or not DATABASE_ID:
+    print("❌ Error: Faltan variables de entorno")
     exit(1)
 
-if not PAGE_ID:
-    print("❌ Error: La variable NOTION_PAGE_ID no está definida")
-    exit(1)
+print(f"🔑 Secreto: {NOTION_SECRET[:10]}...")
+print(f"📚 Base de datos ID: {DATABASE_ID}")
 
-print(f"🔑 Secreto comienza con: {NOTION_SECRET[:10]}...")
-print(f"📄 ID de página: {PAGE_ID}")
+notion = Client(auth=NOTION_SECRET, notion_version="2025-05-13")  # Versión que soporta markdown
 
-# Inicializar cliente de Notion
-notion = Client(auth=NOTION_SECRET)
+# Obtener todas las páginas existentes en la base de datos (para evitar duplicados)
+existing_pages = {}
+try:
+    results = notion.databases.query(database_id=DATABASE_ID).get("results", [])
+    for page in results:
+        title_prop = page["properties"].get("Name", {}).get("title", [])
+        if title_prop:
+            title = title_prop[0]["text"]["content"]
+            existing_pages[title] = page["id"]
+    print(f"📄 Páginas existentes: {len(existing_pages)}")
+except Exception as e:
+    print(f"⚠️ No se pudo obtener la lista existente: {e}")
 
-# Buscar todos los archivos .md
+# Procesar archivos .md
 archivos_md = glob.glob('**/*.md', recursive=True)
 print(f"📁 Archivos .md encontrados: {len(archivos_md)}")
-
-if not archivos_md:
-    print("⚠️ No se encontraron archivos .md en el repositorio")
-    exit(0)
 
 for filepath in archivos_md:
     try:
@@ -35,19 +38,29 @@ for filepath in archivos_md:
         
         filename = os.path.basename(filepath)
         print(f"📝 Procesando: {filename}")
-        
-        # Crear página en Notion
-        response = notion.pages.create(
-            parent={"page_id": PAGE_ID},
-            properties={
-                "title": {
-                    "title": [{"text": {"content": filename}}]
-                }
-            },
-            markdown=content
-        )
-        
-        print(f"✅ Subido: {filename} (ID: {response['id']})")
+
+        # Propiedades comunes
+        properties = {
+            "Name": {"title": [{"text": {"content": filename}}]}
+        }
+
+        if filename in existing_pages:
+            # Actualizar página existente
+            page_id = existing_pages[filename]
+            notion.pages.update(
+                page_id=page_id,
+                properties=properties,
+                markdown=content
+            )
+            print(f"🔄 Actualizado: {filename}")
+        else:
+            # Crear nueva página en la base de datos
+            notion.pages.create(
+                parent={"database_id": DATABASE_ID},
+                properties=properties,
+                markdown=content
+            )
+            print(f"✅ Creado: {filename}")
         
     except Exception as e:
         print(f"❌ Error con {filepath}: {str(e)}")
