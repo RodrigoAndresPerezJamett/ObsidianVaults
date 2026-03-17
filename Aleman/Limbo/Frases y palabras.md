@@ -15,6 +15,9 @@
 - =={green}das== macht nichts = no importa...
 - ist schon gut = esta bien...
 - schon wieder? = ¿Otra vez?
+- unbedingt = sí o sí, sin falta
+- doch bitte = por favor (suavizado)
+- noch = además
 ## Palabras nuevas
 - =={blue}der== Termin / =={red}die== Termine = Cita
 - =={blue}der== Kurs = El curso
@@ -216,6 +219,21 @@
 	- =={red}die== Büroräume = Oficinas
 - =={blue}der== Notausgang = Salida de emergencia
 - =={green}das== Erdgeschoss(e) = Planta baja
+- vorsicht = Cuidado
+- öfter = más a menudo
+- gefunden = encontrado (pasado de finden)
+- zumindest = al menos
+- es gibt = hay / existe
+- noch mal = otra vez
+- nach schauen = revisar
+- regeln = regular
+- =={red}die== Hose(n) = Pantalón(es)
+- etwas behalten = quedarse algo
+- =={blue}der== Koffer = la maleta
+- schenken = regalar
+- =={green}das== Notizbuch = nota, libreta
+- =={red}die== Seifenblasen = Burbujas de jabón
+- nett = lindo, amable
 ## Conceptos que debo profundizar
 - bei / in der: Expresar estar en un lugar o con cierta persona / servicio 
 - Wie viel Uhr ist es jetzt? vs Wissen Sie, wie spät es ist? // Oración principal vs subordinada // ist cambia de posición°

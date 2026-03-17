@@ -12,7 +12,7 @@
 | ![[screenshot_20260314_183000.png\|100]] | in          | dentro de      |
 
 A la pregunta "Wo" se responde por lo general con una de las nueve preposiciones (estas rigen tanto el dativo como el acusativo)
-- =={blue}in / auf / unter /über / vor / hinter / neben / an / zwischen==
+- ==in / auf / unter /über / vor / hinter / neben / an / zwischen==
 
 Si se ocupa "Wo" se pregunta por un lugar y no por una dirección, bajo este contexto se responde con ==dativo==
 
