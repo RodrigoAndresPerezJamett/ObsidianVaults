@@ -57,5 +57,5 @@ for filepath in glob.glob('**/*.md', recursive=True):
             }
         ]
     )
-    print(f'Subido: {filename}')
+    print(f'Subido: {filename} :D')
 "
