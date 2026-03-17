@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade "notion-client>=3.0.0" markdown
+          pip show notion-client
 
       - name: Run sync script
         env:
