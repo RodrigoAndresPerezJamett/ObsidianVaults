@@ -1,0 +1,27 @@
+name: Sync Obsidian to Notion
+
+on:
+  push:
+    branches: [ main ]   # o la rama que uses
+  workflow_dispatch:      # permite ejecutarlo manualmente
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync to Notion
+        uses: easrng/obsidian-to-notion-action@v1
+        with:
+          notion-token: ${{ secrets.NOTION_TOKEN }}
+          # ID de la página o base de datos de Notion (opcional pero recomendado)
+          # Si no lo pones, usará la página "Untitled" de tu integración (no recomendado)
+          notion-page-id: "321daeb71f528031b649d4424ebd279b"
+          # Carpeta dentro del repo que contiene las notas (por defecto es la raíz)
+          source-dir: "."
+          # Modo de sincronización: "page" (crea subpáginas) o "database" (crea entradas en BD)
+          mode: "page"
+          # Si usas mode: "database", debes especificar el ID de la base de datos
+          # database-id: "TU_DATABASE_ID"
