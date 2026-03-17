@@ -16,7 +16,7 @@ print(f"📚 Base de datos ID: {DATABASE_ID}")
 headers = {
     "Authorization": f"Bearer {NOTION_SECRET}",
     "Content-Type": "application/json",
-    "Notion-Version": "2025-05-13"  # Versión que soporta markdown
+    "Notion-Version": "2025-09-03"  # Versión que soporta markdown
 }
 
 # Obtener páginas existentes para evitar duplicados
