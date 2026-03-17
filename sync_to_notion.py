@@ -2,23 +2,23 @@ import os
 import glob
 from notion_client import Client
 
-# Obtener variables de entorno
-NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
+# Obtener variables de entorno (ahora usa NOTION_SECRET)
+NOTION_SECRET = os.environ.get('NOTION_SECRET')
 PAGE_ID = os.environ.get('NOTION_PAGE_ID')
 
-if not NOTION_TOKEN:
-    print("❌ Error: La variable NOTION_TOKEN no está definida")
+if not NOTION_SECRET:
+    print("❌ Error: La variable NOTION_SECRET no está definida")
     exit(1)
 
 if not PAGE_ID:
     print("❌ Error: La variable NOTION_PAGE_ID no está definida")
     exit(1)
 
-print(f"🔑 Token comienza con: {NOTION_TOKEN[:10]}...")
+print(f"🔑 Secreto comienza con: {NOTION_SECRET[:10]}...")
 print(f"📄 ID de página: {PAGE_ID}")
 
 # Inicializar cliente de Notion
-notion = Client(auth=NOTION_TOKEN)
+notion = Client(auth=NOTION_SECRET)
 
 # Buscar todos los archivos .md
 archivos_md = glob.glob('**/*.md', recursive=True)

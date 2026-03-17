@@ -23,6 +23,6 @@ jobs:
 
       - name: Run sync script
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_PAGE_ID: "321daeb71f528031b649d4424ebd279b"
         run: python sync_to_notion.py
