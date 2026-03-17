@@ -44,20 +44,7 @@ for filepath in archivos_md:
                     "title": [{"text": {"content": filename}}]
                 }
             },
-            children=[
-                {
-                    "object": "block",
-                    "type": "paragraph",
-                    "paragraph": {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {"content": content[:2000]}
-                            }
-                        ]
-                    }
-                }
-            ]
+            markdown=content
         )
         
         print(f"✅ Subido: {filename} (ID: {response['id']})")
